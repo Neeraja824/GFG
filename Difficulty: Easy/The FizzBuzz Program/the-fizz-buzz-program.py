@@ -1,12 +1,12 @@
-def fizzBuzz(number):
-    # Write your code here.
-    if number%3==0 and number%5==0:
+def FizzBuzz(a):
+    if a%3 == 0 and a%5 == 0:
         print("FizzBuzz")
-    elif number%3==0:
-        print('Fizz')
-    elif number%5==0:
-        print('Buzz')
-
+    elif a%3 ==0:
+        print("Fizz")
+    elif a%5==0:
+        print("Buzz")
     else:
-        print(number)
-
+        print(a)
+        
+a = int(input())
+FizzBuzz(a)

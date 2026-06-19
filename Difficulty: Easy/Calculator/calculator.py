@@ -1,11 +1,11 @@
 class Solution:
-    def utility(self, a, b, opr):
+    def calculate(self, a: int, b: int, operator: int) -> None:
         # code here
-        if opr==1:
-            print(int(a+b))
-        elif opr==2:
-            print(int(a-b))
-        elif opr==3:
-            print(int(a*b))
+        if operator==1:
+            print(a+b,end="")
+        elif operator==2:
+            print(b-a,end="")
+        elif operator==3:
+            print(a*b,end="")
         else:
-            print("Invalid Input")
+            print("Invalid Input",end="")
